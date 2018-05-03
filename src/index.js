@@ -1,15 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
+//React is a JS library to produce html code and show in the browser
+//Components are snippets of code who produces html code
+//Component are complex js functions who produce html
 
-import App from './components/app';
-import reducers from './reducers';
-
-const createStoreWithMiddleware = applyMiddleware()(createStore);
-
-ReactDOM.render(
-  <Provider store={createStoreWithMiddleware(reducers)}>
-    <App />
-  </Provider>
-  , document.querySelector('.container'));
+//Create a new component. This component should produce
+// some HTML
+const App = function(){     //Const is ES6 syntax
+    return <div>HI!</div>;
+}
+//Take this component's generated HTML and put it 
+// on the page (in the dom)
