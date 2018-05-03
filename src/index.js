@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactDOM from 'react-dom'
+
 //React is a JS library to produce html code and show in the browser
 //Components are snippets of code who produces html code
 //Component are complex js functions who produce html
