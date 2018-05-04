@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom' //Si deseas renderizar un elemento en el DOM esta es tu libreria
 
 //React is a JS library to produce html code and show in the browser
 //Components are snippets of code who produces html code
@@ -12,4 +12,4 @@ const App = function(){     //Const is ES6 syntax
 }
 //Take this component's generated HTML and put it 
 // on the page (in the dom)
-React.render(App);
+ReactDOM.render(App);
