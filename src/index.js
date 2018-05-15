@@ -7,9 +7,9 @@ import ReactDOM from 'react-dom' //Si deseas renderizar un elemento en el DOM es
 
 //Create a new component. This component should produce
 // some HTML
-const App = function(){     //Const is ES6 syntax
+const App = function() {     //Const is ES6 syntax
     return <div>HI!</div>;
 }
 //Take this component's generated HTML and put it 
 // on the page (in the dom)
-ReactDOM.render(App);
+ReactDOM.render(<App/>, document.querySelector('.container'));
